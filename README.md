@@ -15,14 +15,11 @@ After the library is installed you will need the following binaries accessible o
     - pdftk splits multi-page pdf into single pages.
 - pdftotext
     - pdftotext is used to extract text out of searchable pdf documents
-- imagemagik
-    - convert pdfs to tif files for input into tesseract
+- ghostscript
+    - ghostscript is an ocr preprocessor which convert pdfs to tif files for input into tesseract
 - tesseract
     - tesseract performs the actual ocr on your scanned images
 
-### NOTE
-
-This fork uses __imagemagik__ rather than __ghostscript__ for conversion to tif. Install [imagemagik](https://www.imagemagick.org/script/download.php) instead!
 
 ### OSX
 To begin on OSX, first make sure you have the homebrew package manager installed.
